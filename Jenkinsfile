@@ -6,7 +6,7 @@ pipeline {
         stage ('stage_A'){
             steps{
                 echo "This is the first stage"
-                sleep '10'
+                sh 'sleep 5'
             }
         }
     }
