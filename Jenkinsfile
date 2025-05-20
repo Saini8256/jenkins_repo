@@ -2,13 +2,13 @@ pipeline {
     agent {
         label 'SLAVE_1'
     }
-    stages{
+    stages {
         stage ('stage_A'){
-            steps{
+            steps {
                 echo "This is the first stage"
             }
         stage ('stage_B')
-            steps{
+            steps {
                 echo "This is the second stage"
             }
         }
