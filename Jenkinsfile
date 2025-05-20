@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent SLAVE_1
     stages{
         stage ('stage_A'){
             steps{
